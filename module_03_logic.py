@@ -1,7 +1,7 @@
 """
 Description: Introduction to Logic
-Author: Student Name
-Date: September 2023
+Author: Anthony Gomes
+Date: October 24, 2024
 Usage: To execute, press the play button in the VSC IDE.
 """
 
@@ -114,3 +114,20 @@ print("Even" if number % 2 == 0 else "Odd:")
 
 
 # MEMBERSHIP CHECKING
+fruits = ["apple", "banana", "cherry"]
+print("banana" in fruits)
+
+print("orange" not in fruits)
+
+print(fruits)
+
+text = "Hello world!"
+
+print("world" in text)
+
+searched_fruit = "banana"
+
+if searched_fruit in fruits:
+    print("Found", searched_fruit)
+else:
+    print(searched_fruit, "not found")
